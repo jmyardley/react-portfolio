@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <div>
+    <div className="container-fluid" style={{"max-width": "700px"}}>
       <h1>Projects Page</h1>
       <p>
         Here I will list my projects.
