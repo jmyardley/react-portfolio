@@ -4,6 +4,7 @@ import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import Projects from "./components/pages/Projects";
 import Links from "./components/pages/Links";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/links" component={Links} />
 
       </div>
+      <Footer />
     </Router>
   );
 }
