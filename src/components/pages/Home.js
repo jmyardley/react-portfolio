@@ -3,7 +3,8 @@ import jordan from "../Assets/jordan.png";
 
 function Home() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" style={{"max-width": "700px"}}>
+      <h1>About Me</h1>
       <div className="row">
         <div className="col-md-4">
           <img src={jordan} alt="Me" width="100%" />
@@ -11,13 +12,15 @@ function Home() {
 
         <div className="col-md-8">
           <div className="titles">
+            <br/>
             Web Developer
+            <br/>
             <p className="contact">Charlotte, NC</p>
             <p className="contact"><i className="muted">Contact:</i> jmyardley at gmail</p>
           </div>
         </div>
 
-
+        <br/>
 
         <p>I am a developer from Charlotte, North Carolina. I have previously called Boston and Nashville
         home. I enjoy problem solving, eating Bojangles, and watching the NBA. </p>
