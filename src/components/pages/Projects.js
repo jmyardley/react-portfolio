@@ -4,12 +4,20 @@ import List from "../../components/List";
 function Projects() {
   const projects = [
     {
+      id: 0,
+      name: "Collaborative Event Planner",
+      img: "https://user-images.githubusercontent.com/35856061/106506366-9eae6280-6497-11eb-865b-a34db08586f1.png",
+      desc: "MERN stack app built in React employing three associated NoSQL tables in MongoDB to track users, events, and to-do items by id.",
+      app: "https://salty-eyrie-99522.herokuapp.com",
+      repo: "https://github.com/jmyardley/collaborative-event-planner"
+    },
+    {
       id: 1,
-      name: "Secure Password Generator",
-      img: "https://user-images.githubusercontent.com/35856061/104675518-aefec900-56b3-11eb-8e4f-1f8d82991104.png",
-      desc: "Using Javascript to create and display a randomly generated password based on user-selected criteria.",
-      app: "https://jmyardley.github.io/password-generator/",
-      repo: "https://github.com/jmyardley/password-generator"
+      name: "React Standings App",
+      img: "https://user-images.githubusercontent.com/35856061/106506260-79b9ef80-6497-11eb-995f-7b5646715896.png",
+      desc: "React app using Axios to retrieve, sort, and render NBA standings to East and West tabs.",
+      app: "https://react-standings.herokuapp.com/",
+      repo: "https://github.com/jmyardley/react-standings"
     },
     {
       id: 2,
@@ -21,11 +29,11 @@ function Projects() {
     },
     {
       id: 3,
-      name: "Getaway Planner (Collaboration)",
-      img: "https://user-images.githubusercontent.com/73077219/99841538-57713080-2b3c-11eb-9174-2830d451af9c.png",
-      desc: "Getaway Planner is a web application designed to help the user find the best places to eat and drink (micro-breweries) in whatever town you plan on travelling to within the United States, while giving the weather forecast as well.",
-      app: "https://wmdane.github.io/getaway_planner/",
-      repo: "https://github.com/wmdane/getaway_planner"
+      name: "Secure Password Generator",
+      img: "https://user-images.githubusercontent.com/35856061/104675518-aefec900-56b3-11eb-8e4f-1f8d82991104.png",
+      desc: "Using Javascript to create and display a randomly generated password based on user-selected criteria.",
+      app: "https://jmyardley.github.io/password-generator/",
+      repo: "https://github.com/jmyardley/password-generator"
     },
     {
       id: 4,
@@ -46,7 +54,7 @@ function Projects() {
   ];
   return (
     <div className="container-fluid" style={{"max-width": "700px"}}>
-      <h1>Projects Page</h1>
+      <h1>Projects</h1>
       <List projects={projects} />
     </div>
   );
