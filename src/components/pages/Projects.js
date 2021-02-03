@@ -21,6 +21,14 @@ function Projects() {
     },
     {
       id: 2,
+      name: "Mortgage Calculator",
+      img: "https://user-images.githubusercontent.com/35856061/106790478-a0a42d00-6621-11eb-921a-d15289a19899.png",
+      desc: "Using Javascript to calculate total mortgage cost and amortization schedule based on principal, APR, and time period.",
+      app: "https://jmyardley.github.io/mortgage-calc/",
+      repo: "https://github.com/jmyardley/mortgage-calc"
+    },
+    {
+      id: 3,
       name: "Burger App",
       img: "https://user-images.githubusercontent.com/35856061/104677468-752fc180-56b7-11eb-82ce-e4079a70c3dd.png",
       desc: "Demonstrating the ability to take in user input through a form and interact with an SQL database using Node.js, ORM, Express, and Handlebars. Deployed via Heroku using the JAWS_DB SQL extension.",
@@ -28,20 +36,12 @@ function Projects() {
       repo: "https://github.com/jmyardley/burger"
     },
     {
-      id: 3,
+      id: 4,
       name: "Secure Password Generator",
       img: "https://user-images.githubusercontent.com/35856061/104675518-aefec900-56b3-11eb-8e4f-1f8d82991104.png",
       desc: "Using Javascript to create and display a randomly generated password based on user-selected criteria.",
       app: "https://jmyardley.github.io/password-generator/",
       repo: "https://github.com/jmyardley/password-generator"
-    },
-    {
-      id: 4,
-      name: "Weather Dashboard",
-      img: "https://user-images.githubusercontent.com/35856061/104677760-fedf8f00-56b7-11eb-915b-07ca60524b18.png",
-      desc: "Interacting with the OpenWeatherMap API to retrieve and display weather information for user-selected cities.",
-      app: "https://jmyardley.github.io/weather-dashboard/",
-      repo: "https://github.com/jmyardley/weather-dashboard"
     },
     {
       id: 5,
